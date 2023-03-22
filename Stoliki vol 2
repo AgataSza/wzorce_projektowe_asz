@@ -1,0 +1,18 @@
+package fabryka.meble;
+
+public class Stoliki extends Mebel {
+
+    private final String nozki;
+    private final String materiałNozki;
+    private final String materialBlat;
+
+    public Stoliki(String nozki, String materiałNozki, String materialBlat) {
+        this.nozki = nozki;
+        this.materiałNozki = materiałNozki;
+        this.materialBlat = materialBlat;
+    }
+
+    public String getNozki() {
+        return nozki;
+    }
+}
